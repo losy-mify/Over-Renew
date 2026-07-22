@@ -38,7 +38,7 @@ jobs:
           echo ""
 
       - name: 🐍 安装 Python 依赖
-        run: pip install requests
+        run: pip install curl_cffi
 
       - name: 🌐 执行续期
         env:
